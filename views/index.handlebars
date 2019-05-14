@@ -21,15 +21,15 @@
 
         <div class="col-md-6 col-right">
             <!-- Devoured burgers -->
-                {{#each burgers}}
-                {{#if devoured}}
-                <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
-                <button class="delete" data-id="{{this-id}}" data-newDevoured="{{devour}}">
+            {{#each burgers}}
+            {{#if devoured}}
+            <span><strong> {{this.id}} - {{this.burger_name}} </strong></span>
+            {{!-- <button class="delete" data-id="{{this-id}}" data-newDevoured="{{devour}}">
                     {{#if delete}}DELETE!!!{{else}}DELETE!{{/if}}
-                </button>
-                <hr>
-                {{/if}}
-                {{/each}}
+                </button> --}}
+            <hr>
+            {{/if}}
+            {{/each}}
         </div>
     </div>
 
