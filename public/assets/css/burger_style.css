@@ -1,14 +1,14 @@
-html {
+/* html {
     background-color:skyblue;
-}
+} */
 
 body {
-    width: 75%;
-   margin: 0 auto; 
+    width: 100%;
+   margin: auto; 
    display: flex;
+   vertical-align: middle;
    min-height: 100vh;
    flex-direction: column;
-   background-color: white;
 }
 
 #burger {
@@ -28,3 +28,8 @@ h1 {
     text-align: center;
 }
 
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
