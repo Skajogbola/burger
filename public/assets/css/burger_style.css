@@ -9,7 +9,10 @@ body {
    vertical-align: middle;
    min-height: 100vh;
    flex-direction: column;
-   background-color: skyblue;
+}
+
+.color{
+    background-color: skyblue
 }
 
 #burger {
